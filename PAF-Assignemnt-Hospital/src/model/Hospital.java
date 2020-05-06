@@ -16,7 +16,7 @@ public class Hospital {
 				 Class.forName("com.mysql.jdbc.Driver");
 				 //Provide the correct details: DBServer/DBName, username, password 
 				 //con= DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/hosptal", "root", "");
-				 con= DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/hosptal?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", "root", "");
+				 con= DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/hospital?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC", "root", "");
 
 				//For testing          
 				 System.out.println("Successfully connected");
@@ -166,7 +166,7 @@ public class Hospital {
 		 
 		  return output;  
 		  }
-		
+		//Deleting Hospitals
 		public String deleteHospital(String hId) {  
 			String output = ""; 
 		 

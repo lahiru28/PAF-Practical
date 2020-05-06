@@ -18,7 +18,7 @@
 				<h1 class="m-3">Hospital Details</h1>        
 				
 				<form id="formHospital" name="formHospital" method="post" action = "Hospital.jsp">  
-					FullName:  
+					 Hospital Name:  
 					<input id="hName" name="hName" type="text" class="form-control form-control-sm"> 
 					
 					<br> 
