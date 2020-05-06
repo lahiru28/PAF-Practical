@@ -38,9 +38,9 @@ public class Hospital {
 				} 
 
 				// Prepare the html table to be displayed   
-				output = "<table border='1'><tr><th>hName</th>"
+				output = "<table border='2'class='table'><thead class='thead-dark'><tr><th>hName</th>"
 						+ "<th>hAddress</th><th>hPhone</th>"
-						+ "<th>hEmail</th><th>Update</th><th>Remove</th>";
+						+ "<th>hEmail</th><th>Update</th><th>Remove</th><thead>";
 
 
 				  String query = "select * from hospital";   
